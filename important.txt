@@ -1,0 +1,16 @@
+'''
+Summary:
+  - This open source library collects usage statistics.
+  - We cannot see and do not store information contained inside Streamlit apps,
+    such as text, charts, images, etc.
+  - Telemetry data is stored in servers in the United States.
+  - If you'd like to opt out, add the following to %userprofile%/.streamlit/config.toml,
+    creating that file if necessary:
+
+    [browser]
+    gatherUsageStats = false
+'''
+
+The above snippet is from streamlit running `streamlit hello` in cmd
+you should turn off Telemetry data is stored in servers in the United States.
+
